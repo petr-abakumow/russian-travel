@@ -1,0 +1,16 @@
+@import url(./__title/section__title.css);
+@import url(./__url-heading/section__url-heading.css);
+@import url(./__link/section__link.css);
+@import url(./__image/section__image.css);
+.section {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-areas:
+    "title-area link-area"
+    "image text";
+    grid-gap: 48px 40px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 92px;
+}

@@ -1,0 +1,6 @@
+@import url(./_lang/header-container__link_lang_en.css);
+@import url(./_lang/header-container__link_lang_ru.css);
+
+.header-container__links {
+    margin: 46px 48px 0 0;
+}

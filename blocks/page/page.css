@@ -1,0 +1,19 @@
+.page {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas: 
+    "header-container"
+    "header"
+    "intro"
+    "carousel"
+    "kosa"
+    "kolsk"
+    "altay"
+    "winter-baikal"
+    "karelya"
+    "section-cover"
+    "footer";
+    border: 1px solid red;
+}

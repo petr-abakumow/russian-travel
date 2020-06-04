@@ -1,0 +1,36 @@
+@import url(./__item/carousel__item.css);
+.carousel {
+    grid-area: carousel;
+    margin: 92px auto 0;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-gap: 16px;
+}
+@media screen and (min-width: 1020px) and (max-width: 1275px) {
+
+    .carousel {
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        grid-gap: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+
+    .carousel {
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
+        grid-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .carousel {
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        grid-template-columns: repeat(1, minmax(min-content, max-content));
+        grid-gap: 12px;
+    }
+}
