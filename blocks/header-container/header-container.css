@@ -1,8 +1,0 @@
-@import url(./__links/header-container__links.css);
-@import url(./__logo/header-container__logo.css);
-
-.header-container {
-    grid-area: header-container;
-    display: flex;
-    justify-content: space-between;
-}
