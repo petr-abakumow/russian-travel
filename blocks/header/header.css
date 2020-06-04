@@ -1,0 +1,8 @@
+.header {
+    width: 928px;
+    height: 52px;
+    background-color: greenyellow;
+    margin: auto;
+    grid-area: header;
+
+}

@@ -1,0 +1,7 @@
+.intro {
+    width: 690px;
+    height: 428px;
+    background-color: gold;
+    margin-left: 48px;
+    grid-area: intro;
+}

@@ -1,0 +1,7 @@
+.cover {
+    width: 1024px;
+height: 640px;
+    background-color: lightblue;
+    margin: auto;
+    grid-area: cover;
+}

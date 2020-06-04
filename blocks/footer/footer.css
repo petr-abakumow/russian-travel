@@ -1,0 +1,7 @@
+.footer {
+    width: 928px;
+    height: 18px;
+    background-color: lightgray;
+    margin: auto;
+    grid-area: footer;
+}

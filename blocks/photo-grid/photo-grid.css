@@ -1,0 +1,7 @@
+.photo-grid {
+    width: 928px;
+    height: 942px;
+    background-color: hotpink;
+    margin: auto;
+    grid-area: photo-grid;
+}
