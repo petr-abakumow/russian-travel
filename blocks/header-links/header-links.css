@@ -1,0 +1,7 @@
+@import url(./__lang-link/header-links__lang-link.css);
+
+.header-links {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 6px;
+}

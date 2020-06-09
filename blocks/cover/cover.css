@@ -1,7 +1,15 @@
+@import url(./__overlay/cover__overlay.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+
 .cover {
+    position: relative;
+    z-index: 0;
     width: 1024px;
-height: 640px;
+    height: 640px;
     background-color: lightblue;
     margin: auto;
     grid-area: cover;
+    background-image: url(/images/__background-cover.jpg);
 }

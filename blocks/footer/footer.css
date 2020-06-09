@@ -1,7 +1,10 @@
+@import url(./__copyright/footer__copyright.css);
+
 .footer {
+    display: flex;
+    justify-content: space-between;
     width: 928px;
-    height: 18px;
-    background-color: lightgray;
-    margin: auto;
+    background-color: rebeccapurple;
+    margin: 0 auto 24px;
     grid-area: footer;
 }

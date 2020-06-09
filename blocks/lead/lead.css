@@ -1,7 +1,14 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
 .lead {
+    display: flex;
+    flex-direction: column;
     width: 928px;
     height: 962px;
     background-color: green;
-    margin: auto;
+    margin: calc(56px - 92px) auto 0;
     grid-area: lead;
 }
