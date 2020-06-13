@@ -1,7 +1,4 @@
 .places {
-    width: 928px;
-    height: 3296px;
-    background-color: indigo;
-    margin: auto;
-    grid-area: places;
+    max-width: 984px;
+    margin: 92px auto 0;
 }

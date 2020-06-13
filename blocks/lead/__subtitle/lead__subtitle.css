@@ -9,3 +9,12 @@
     color: #fff;
     width: 640px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead__subtitle {
+        margin-top: 16px;
+        width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

@@ -1,6 +1,6 @@
-.cover__overlay {
+.cover::after {
+    content: "";
     position: absolute;
-    z-index: 0;
     left: 0;
     top: 0;
     height: inherit;
@@ -9,7 +9,9 @@
     opacity: 0.3;
 }
 
-.cover__overlay:hover {
+
+.cover:hover::after {
+    content: "";
     opacity: 0.8;
     transition-duration: 0.4s;
 }
