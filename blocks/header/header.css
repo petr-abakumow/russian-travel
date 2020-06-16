@@ -4,8 +4,21 @@
 @import url(./__link-lang/header__link-lang.css);
 
 .header {
-    
+    padding: 28px 48px 0;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 0;
+    }
 }

@@ -12,3 +12,16 @@
     margin: 56px auto 0;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        max-width: 928px;
+    }
+}
+ 
