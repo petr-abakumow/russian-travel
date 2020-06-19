@@ -8,11 +8,11 @@
 
 .place {
     margin-top: 80px;
-    max-width: 928px;
+    max-width: 984px;
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(2, auto);
-    grid-gap: 48px 32px;
+    grid-gap: 48px 40px;
     grid-template-areas: 
     "place__title place__website"
     "place__image place__texts";
@@ -20,4 +20,24 @@
 
 .place:first-child {
     margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place {
+        grid-gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        margin: 64px auto 0;
+    }
 }

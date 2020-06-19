@@ -2,7 +2,7 @@
     position: relative;
     z-index: 1;
     margin: 245px auto 0;
-    width: 560px;
+    max-width: 560px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
