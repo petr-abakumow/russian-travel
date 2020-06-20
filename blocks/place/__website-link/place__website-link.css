@@ -16,3 +16,8 @@
         display: none;
     }
 }
+
+.place__website-link:hover {
+    opacity: 0.8;
+    transition-duration: 0.2s;
+}

@@ -2,3 +2,18 @@
     list-style-type: none;
     
 }
+
+@media screen and (max-width: 767px) {
+    .menu__link {
+        margin-top: 32px;
+    }
+
+    .menu__link:first-child {
+        margin: 0;
+    }
+}
+
+.menu__link:hover {
+    opacity: 0.8;
+    transition-duration: 0.2s;
+}
