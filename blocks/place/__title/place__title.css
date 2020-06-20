@@ -2,7 +2,7 @@
     grid-area: place__title;
     margin: 0;
     max-width: 440px;
-    font-family: Inter;
+    font-family: 'inter', 'arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
