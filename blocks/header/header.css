@@ -2,6 +2,7 @@
 @import url(./__links/header__links.css);
 @import url(./__link/header__link.css);
 @import url(./__link-lang/header__link-lang.css);
+@import url(./__link/_lang/header__link_lang_ru.css);
 
 .header {
     padding: 28px 48px 0;
