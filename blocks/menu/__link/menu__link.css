@@ -1,19 +1,17 @@
 .menu__link {
-    list-style-type: none;
-    
+    color: #fff;
+    text-decoration: none;
+    font-family: 'inter', 'arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 18px;
 }
 
 @media screen and (max-width: 767px) {
     .menu__link {
-        margin-top: 32px;
+        font-size: 24px;
+        line-height: 24px;
     }
-
-    .menu__link:first-child {
-        margin: 0;
-    }
-}
-
-.menu__link:hover {
-    opacity: 0.8;
-    transition-duration: 0.2s;
 }
