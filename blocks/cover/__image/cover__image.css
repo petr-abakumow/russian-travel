@@ -1,5 +1,7 @@
 .cover__image {
-    
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     max-width: 1184px;
     min-width: 320px;
