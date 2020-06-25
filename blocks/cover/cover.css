@@ -8,10 +8,8 @@
 .cover {
     position: relative;
     background-image: url(../../images/__background-cover.jpg);
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    
     margin: 92px auto 0;
     width: 100%;
     min-height: 740px;
